@@ -3,7 +3,7 @@ package backend;
 public class app {
 
     public static void main(String[] args) {
-        System.out.println("Backend läuft erfolgreich!");
+        System.out.println("hallo benutzer!");
     }
 
 }
