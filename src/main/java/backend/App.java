@@ -10,5 +10,6 @@ public class App {
         System.out.println(userService.getWelcomeMessage());
         System.out.println(userService.getPersonalWelcomeMessage("Dusan"));
         System.out.println(userService.createTaskSummary("SQ TDD Aufgabe", "2025-01-15"));
+        System.out.println("Status: Backend läuft erfolgreich.");
     }
 }
