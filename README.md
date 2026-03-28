@@ -35,3 +35,14 @@ Die Aufgabe wurde nach dem Prinzip **Red → Green → Refactor** gelöst:
 2. Test schlägt fehl
 3. Minimalen Code ergänzen
 4. Code aufräumen
+
+## CI Pipeline
+
+Diese GitHub Action wird bei jedem Pull Request ausgeführt.
+
+Sie führt folgende Schritte aus:
+- Repository wird ausgecheckt
+- Java 17 wird installiert
+- Backend wird mit Maven gebaut (`mvn clean package`)
+
+Die Pipeline dient dazu sicherzustellen, dass der Code bei jedem Pull Request erfolgreich gebaut werden kann.
