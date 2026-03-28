@@ -35,3 +35,6 @@ Die Aufgabe wurde nach dem Prinzip **Red → Green → Refactor** gelöst:
 2. Test schlägt fehl
 3. Minimalen Code ergänzen
 4. Code aufräumen
+
+
+CI-Test Branch test-pipeline
