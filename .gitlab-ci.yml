@@ -1,0 +1,16 @@
+stages:
+  - build
+  - test
+test_backend:
+  stage: test
+  image: maven:3.9.6-eclipse-temurin-17
+  script:
+    - cd backend
+    - mvn test
+test_frontend:
+  stage: test
+  image: node:20
+  script:
+    - cd frontend
+    - npm install
+    - npm test -- --watchAll=false
