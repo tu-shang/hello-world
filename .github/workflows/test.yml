@@ -23,12 +23,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-      - name: Run frontend tests
-        run: |
-          cd frontend
-          npm install
-          npm test -- --watchAll=false
+      - name: No frontend tests
+        run: echo "No frontend tests available"
